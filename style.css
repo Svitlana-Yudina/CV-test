@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 150%;
+  font-weight: 400;
+
+}
+/* #region header */
+header {
+  display: flex;
+  margin: 0;
+  padding: 32px 40px 24px;
+  background-color: #E25544;
+  color: whitesmoke;
+}
+.my_name {
+  margin: 0 0 8px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+.my_role {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+.about_me {
+  margin: 0;
+}
+.my_photo {
+  margin-left: 50px;
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+}
+/* #endregion */
+
+.main {
+  padding: 0 3%;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+.contacts a {
+  padding: 0 3px;
+  text-decoration: none;
+  color: rgb(36, 34, 34);
+  border-radius: 8px;
+  box-shadow: 4px 2px 2px gray ;
+}
+.contacts a:active {
+  box-shadow: none;
+  color: blue;
+}
+.info {
+  border-top: 1px solid gray;
+  padding: 24px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.info_header {
+margin: 0;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+color: #E25544;
+text-shadow: -1px -1px 1px rgb(36, 35, 35);
+}
+.description {
+  width: 70%;
+}
+.details {
+  border-left: 1px dashed gray;
+  padding-left: 8px;
+  margin-bottom: 24px;
+}
+.details h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skills .details {
+  width: 50%;
+}
